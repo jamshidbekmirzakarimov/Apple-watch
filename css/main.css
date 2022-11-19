@@ -115,6 +115,11 @@ input::placeholder {
 .hero-section {
   padding-top: 170px;
   padding-bottom: 185px;
+  background-image: url(../images/iwatches.png);
+  background-repeat: no-repeat;
+  background-size: 587px;
+  background-position: calc(50% + 550px) calc(50% - -64px);
+  border-bottom: 2px solid #dddddd;
 }
 
 .hero-section-title {
@@ -133,6 +138,18 @@ input::placeholder {
   width: 450px;
   border-left: 3px solid #888888;
   padding-left: 40px;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
+.hero-section-desc {
+  text-decoration: none;
+  background-color: var(--button-bg-color);
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: var(--text-color);
+  padding: 12px 38px;
+}
 /* ************ hero section end *********** */
+/* ************ site main end *********** */
