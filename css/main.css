@@ -57,7 +57,7 @@ body {
 }
 
 .container {
-  width: 1190px;
+  width: 1150px;
   padding-right: 20px;
   padding-left: 20px;
   margin-right: auto;
@@ -88,13 +88,19 @@ body {
 }
 
 .site-nav-item-link {
+  position: relative;
   text-decoration: none;
   font-weight: 400;
   font-size: 15px;
   line-height: 150%;
   color: var(--subtitle-text-color);
+  padding-bottom: 5px;
 }
 
+.site-nav-item-link:hover {
+  color: var(--section-text-color);
+  border-bottom: 1px solid var(--section-text-color);
+}
 .input {
   max-width: 100%;
   border: none;
@@ -151,5 +157,162 @@ input::placeholder {
   color: var(--text-color);
   padding: 12px 38px;
 }
+
+.hero-section-desc:hover {
+  background-color: #b83d37;
+}
+
+.hero-section-desc:active{
+  background-color: #e77c76;
+}
 /* ************ hero section end *********** */
+
+/* *********** services section start ************ */
+.services-section {
+  padding-top: 68px;
+}
+
+.serivices-section-wrapper {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.serivices-section-box {
+  width: 280px;
+  /* margin-left: 80px; */
+}
+
+/* .serivices-section-box:first-child{
+  margin-left: 0;
+} */
+
+.serivices-section-subtitle {
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #222222;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.serivices-section-decs {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.services-section-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.services-section-item {
+  width: 8px;
+  height: 8px;
+  background-color: #dddddd;
+  margin-right: 10px;
+}
+
+.learn-more-content {
+  display: flex;
+  align-items: center;
+}
+
+.serivices-section-learn-more {
+  font-size: 16px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: var(--button-bg-color);
+  margin-left: 10px;
+  cursor: pointer;
+  transition: width 0.2s ease;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.learn-more-content:hover .learn-more-box {
+  width: 50px;
+}
+.learn-more-box {
+  width: 40px;
+  height: 2px;
+  background-color: var(--button-bg-color);
+  transition: width 0.2s ease;
+  cursor: pointer;
+}
+
+/* *********** services section end ************ */
+
+/* ************* iwatch-section start ************** */
+.iwatch-section {
+  padding-top: 140px;
+  padding: 70px;
+}
+
+.iwatch-section-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.iwatch-section-title {
+  width: 380px;
+  font-size: 50px;
+  line-height: 120%;
+  color: var(--section-text-color);
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.iwatch-section-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  border-left: 3px solid #888888;
+  padding-left: 40px;
+  width: 450px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.iwatch-section-btn {
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 12px 90px;
+  background-color: var(--button-bg-color);
+  border: transparent;
+  cursor: pointer;
+}
+
+.iwatch-section-btn:hover{
+  background-color: #c53e36;
+}
+
+.iwatch-section-btn:active{
+  background-color: #e77c76;
+}
+/* *********** iwatch-section end ********** */
 /* ************ site main end *********** */
