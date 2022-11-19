@@ -1,0 +1,138 @@
+/* roboto-regular - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v30-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v30-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v30-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/roboto-v30-latin-regular.svg#Roboto") format("svg"); /* Legacy iOS */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("../fonts/roboto-v30-latin-700.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/roboto-v30-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/roboto-v30-latin-700.woff")
+      format("woff"),
+    /* Modern Browsers */ url("../fonts/roboto-v30-latin-700.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("../fonts/roboto-v30-latin-700.svg#Roboto")
+      format("svg"); /* Legacy iOS */
+}
+
+:root {
+  --bg-color: #fff;
+  --text-color: #fff;
+  --subtitle-text-color: #333333;
+  --section-text-color: #000;
+  --title-color: #222222;
+  --button-bg-color: #ea625c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+/* ****************** site header start ******************** */
+.site-header {
+  padding-top: 30px;
+  background-color: var(--bg-color);
+}
+
+.container {
+  width: 1190px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.site-header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header-end {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+  margin-right: 40px;
+}
+
+.site-nav-item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.site-nav-item-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  color: var(--subtitle-text-color);
+}
+
+.input {
+  max-width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--subtitle-text-color);
+  outline: none;
+  padding-bottom: 10px;
+}
+input::placeholder {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  color: #666666;
+}
+/* ****************** site header end ******************** */
+
+/* ************ site main start ********** */
+/* ************ hero section start *********** */
+.hero-section {
+  padding-top: 170px;
+  padding-bottom: 185px;
+}
+
+.hero-section-title {
+  font-size: 50px;
+  line-height: 120%;
+  color: var(--section-text-color);
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.hero-section-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  width: 450px;
+  border-left: 3px solid #888888;
+  padding-left: 40px;
+}
+
+/* ************ hero section end *********** */
