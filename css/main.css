@@ -162,7 +162,7 @@ input::placeholder {
   background-color: #b83d37;
 }
 
-.hero-section-desc:active{
+.hero-section-desc:active {
   background-color: #e77c76;
 }
 /* ************ hero section end *********** */
@@ -307,12 +307,73 @@ input::placeholder {
   cursor: pointer;
 }
 
-.iwatch-section-btn:hover{
+.iwatch-section-btn:hover {
   background-color: #c53e36;
 }
 
-.iwatch-section-btn:active{
+.iwatch-section-btn:active {
   background-color: #e77c76;
 }
 /* *********** iwatch-section end ********** */
+
+/* *************** site footer start ************** */
+.site-footer {
+  padding-top: 240px;
+  padding-bottom: 240px;
+  background-image: url(../images/runners.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.site-footer-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.site-footer-box {
+  margin-left: auto;
+}
+
+.site-footer-title {
+  font-size: 50px;
+  line-height: 120%;
+  color: #ffffff;
+  width: 490px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.site-footer-subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--bg-color);
+  margin-top: 0;
+  margin-bottom: 30px;
+  width: 450px;
+  border-left: 3px solid var(--bg-color);
+  padding-left: 40px;
+}
+
+.site-footer-explore {
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: var(--button-bg-color);
+  padding: 12px 46px;
+}
+
+.site-footer-explore:hover {
+  background-color: #c53e36;
+}
+
+.site-footer-explore:active {
+  background-color: #e77c76;
+}
+/* *************** site footer end ************** */
 /* ************ site main end *********** */
